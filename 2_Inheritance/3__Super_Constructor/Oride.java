@@ -16,11 +16,11 @@ class Base {
 class Sub extends Base {
     public int c, d;
 
-    Sub(int a, int b) {
+    Sub(int a, int b, int c, int d) {
         super(a,b);
         System.out.println("Sub Constructor Called\n");
-        c = 7;
-        d = 8;
+        this.c = c;
+        this.d = d;
     }
 
     void show() {
@@ -34,7 +34,7 @@ public class Oride {
     public static void main(String[] args) {
         // Base ba = new Base();
         // ba.show();
-        Sub su = new Sub(5,6);
+        Sub su = new Sub(5,6,7,8);
         su.show();
     }
 }
