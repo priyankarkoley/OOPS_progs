@@ -5,7 +5,7 @@ class Car {
     int reg_no;
 
     Car(int speed, int reg_no) { // pramam const
-        System.out.println("\n\nspeed: " + speed + "\nreg_no: " + reg_no);
+        System.out.println("\n\nspeed: " + this.speed + "\nreg_no: " + this.reg_no);
         this.reg_no = reg_no;
         this.speed = speed;
     }
