@@ -5,12 +5,6 @@ class Car {
     int reg_no;
 
     Car() {
-        // System.out.println("\n\nspeed: " + speed + "\nreg_no: " + reg_no);
-        // Scanner sc = new Scanner(System.in);
-        // System.out.print("Enter speed: ");
-        // this.speed = sc.nextInt();
-        // System.out.print("Enter reg_no: ");
-        // this.reg_no = sc.nextInt();
         this.speed = 5;
         this.reg_no = 6541;
     }
