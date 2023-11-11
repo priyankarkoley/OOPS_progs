@@ -8,7 +8,7 @@ interface Drawable {
         System.out.println("quak quak..!!");
     }
 
-    //static methods in interface are not inherited(intrface to another interface) & not implemented(can not be overridden to subclass) and can be called directly by Drawable.run()
+    //static methods in interface are not inherited(intrface to another interface) & not implemented(can not be overridden to subclass) and can be called directly by Drawable.run(). And can not be called by Rectangle.run()
     static void run(){System.out.println("drawbale running!!\n");}
 }
 
